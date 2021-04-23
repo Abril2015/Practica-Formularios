@@ -1,0 +1,81 @@
+<!DOCTYPE HTML>
+<html>
+     
+         <head>
+                 <title> Practica Formularios </title>
+         </head>
+                 
+         <body bgcolor=" sky blue" text="white">
+               <FONT FACE ="ARIAL"> <h1> Formulario de Registro </h1>  </FONT>            
+
+               <form action="" method="GET">
+                     <label for =""> Nombre(s): </label>
+                     <input type="text"> <br>
+
+                     <br>
+                     
+                     <label for=""> Apellido: </label>
+                     <input type="text"> <br>
+ 
+                     <br>
+
+                     <label for=""> Edad: </label>
+                     <input type="number"> <br>
+                     
+                     <br>
+
+                     <label for=""> Correo: </label>
+                     <input type="text"> <br>
+
+                     <br>
+ 
+                     <label for=""> Contraseña: </label>
+                     <input type="password"> <br>
+
+                     <br>
+
+                     <label for=""> Sexo: </label> 
+                  
+                     <label for=""> Masculino: </label>
+                     <input type="radio">
+
+                     <label for=""> Femenino: </label>
+                     <input type="radio"> <br>
+
+                     <br>
+
+                     <input type="checkbox" name="checkbox" value="checkbox1"> Deseo recibir información a mi correo. <br>
+                     <input type="checkbox" name="checkbox" value="checkbox2"> Declaro haber leído los terminos y condiciones del programa. <br>
+ 
+                     <br>
+                                          
+                     <a href="" class="boton_1">Enviar</a>
+
+                     <style type="text/css"> 
+                           .boton_1                   {
+                            text-decoration: none;
+                            padding: 3px;
+                            padding-left: 10px;
+                            padding-right: 10px;
+                            font-family: helvetica;
+                            font-weight: 300;
+                            font-size: 25px;
+                            font-style: italic;
+                            color: #02090F;
+                            background-color: #0E37C2;
+                            border-radius: 15px;
+                          
+                                                       }
+
+                           .boton_1:hover              {
+                            opacity: 0.6;
+                            text-decoration: none;
+                                                       }
+</style>
+
+         </body>
+
+         <footer>
+         </footer>
+
+</html>
